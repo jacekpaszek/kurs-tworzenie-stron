@@ -5,7 +5,7 @@ $(document).ready(function(){
 		var email = $("#email").val();
 		var password = $("#password").val();
 		$("#contact-right").html(name + "<br>" + email + "<br>" + password);
-	});
+	}); //nie wiem o co chodzi :)
 
 	/* Przejscia przy wczytywaniu strony */
 	$("p, h1, h2, h3, h4, a, img, form, button").hide().fadeIn(2000);
